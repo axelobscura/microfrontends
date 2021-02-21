@@ -9,6 +9,7 @@ for (let i = 0; i < 5; i++){
 
 document.querySelector('#dev-products').innerHTML = products;
 
+/*
 const mount = (el) => {
   let products = '';
 
@@ -32,3 +33,4 @@ if(ProcessingInstruction.env.NODE_ENV === 'development'){
 // Context / situation 2
 // No guarantee that an element with an id of 'dev-products' will exist
 export {mount};
+*/
